@@ -19,3 +19,14 @@ installed v4.4.5 for MacOSX.
 * sudo npm install npm -g -- Yup.
 * npm install -g grunt-cli -- ERROR. Didn't have permissions to /usr/bin/local or some such. So do I need to add 'sudo'?
 * sudo npm install -g grunt-cli -- Hey, I think that worked.
+* Download the staticAid ZIP file, unpack, move to a projects folder. 
+* cd projects/staticAid-master
+* npm install
+* open local_settings.default -- I'm too lazy (this is why I suck at tech) to look up how to edit a file from the command prompt, so I just opened this file in TextWrangler. 
+* There's a section on ASpace that needs to be edited for our own instance. But what is this AdLib section? Do I need to change anything here? I guess I'll ignore it for now and see what happens.
+* "Change the values in _config.yml to match your preferences. Make sure to change url and baseurl." UMMMM, where is this file? Let's just keep going...
+* grunt update -- because I want to use our own data... Helrond warns this may take awhile. Weirdly, it did not. Is this grabbing our ASpace data or RACs? Let me look at one of the files. Ok, crap, it's a RAC resource record. Let's look at this utilities/getJson.py file. No dice. Nothing here. Hmm. Let's move along with the data that's there...
+* grunt serve -- this is taking awhile. Inspecting some of these python scripts while I wait, and I really can't figure out why it's not pulling data from the right ASpace. All signs point to that config file for setting the BaseURL. 
+
+
+
