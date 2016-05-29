@@ -26,7 +26,7 @@ installed v4.4.5 for MacOSX.
 * There's a section on ASpace that needs to be edited for our own instance. But what is this AdLib section? Do I need to change anything here? I guess I'll ignore it for now and see what happens.
 * "Change the values in _config.yml to match your preferences. Make sure to change url and baseurl." UMMMM, where is this file? Let's just keep going...
 * grunt update -- because I want to use our own data... Helrond warns this may take awhile. Weirdly, it did not. Is this grabbing our ASpace data or RACs? Let me look at one of the files. Ok, crap, it's a RAC resource record. Let's look at this utilities/getJson.py file. No dice. Nothing here. Hmm. Let's move along with the data that's there...
-* grunt serve -- this is taking awhile. Inspecting some of these python scripts while I wait, and I really can't figure out why it's not pulling data from the right ASpace. All signs point to that config file for setting the BaseURL. 
+* grunt serve -- this is taking awhile. Inspecting some of these python scripts while I wait, and I really can't figure out why it's not pulling data from the right ASpace. 
 * Site built, and I can access it at localhost:4000, and HEY it's red. 
 
 Okay, I got this far. I have staticAid running. But now need to figure out why it's not grabbing the right ASpace data. 
