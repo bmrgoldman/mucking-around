@@ -11,5 +11,5 @@ The following command:
 * download thumbnails (file named according to same convention)
 * download subtitles (file named according to same convention)
 
-    youtube-dl -o 'pstsc_[collection number]_%(playlist)s/pstsc_[collection number]_%(playlist_index)s_%(title)s.%(ext)s' [URL] --restrict-filenames --write-description --write-info-json --write-annotations --yes-playlist --write-all-thumbnails --write-auto-sub
+     youtube-dl -o 'pstsc_[collection number]_%(playlist)s/pstsc_[collection number]_%(playlist_index)s_%(title)s.%(ext)s' [URL] --restrict-filenames --write-description --write-info-json --write-annotations --yes-playlist --write-all-thumbnails --write-auto-sub
 
