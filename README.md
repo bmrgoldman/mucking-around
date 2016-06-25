@@ -4,3 +4,4 @@ Please don't judge too harshly. This is me in the garage with a sturdy hammer, j
 * [Mucking around with staticAid](staticaid.md)
 * [YouTube-dl](youtube-dl.md)
 * [wget](wget.md)
+* [docker](docker.md)
