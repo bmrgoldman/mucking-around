@@ -5,3 +5,7 @@ Please don't judge too harshly. This is me in the garage with a sturdy hammer, j
 * [YouTube-dl](youtube-dl.md)
 * [wget](wget.md)
 * [docker](docker.md)
+* warc
+* twarc
+* sfm-docker
+* webrecorder
